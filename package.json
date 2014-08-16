@@ -1,0 +1,19 @@
+{
+  "name": "gobble-ractive",
+  "description": "Compile Ractive.js components with gobble",
+  "version": "0.1.0",
+  "author": "Rich Harris",
+  "keywords": [
+    "gobble"
+  ],
+  "files": [
+    "index.js",
+    "builders"
+  ],
+  "dependencies": {
+    "rcu": "~0.2.1",
+    "ractive": "~0.5.5",
+    "clean-css": "~2.2.13",
+    "tosource": "~0.1.2"
+  }
+}
