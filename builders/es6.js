@@ -2,7 +2,7 @@ module.exports = function ( definition ) {
 	var importStatements, builtModule;
 
 	importStatements = definition.imports.map( function ( imported, i ) {
-		return 'import __import' + i + '__ from \'' + imported.href.replace( fileExtension, '' ) + '\';';
+		return 'import __import' + i + '__ from \'' + imported.href.replace( /\.[a-zA-Z]+$/, '' ) + '\';';
 	});
 
 	importStatements.unshift( 'import Ractive from \'ractive\';' );
