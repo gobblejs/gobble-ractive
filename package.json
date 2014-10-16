@@ -3,8 +3,11 @@
   "description": "Compile Ractive.js components with gobble",
   "version": "0.1.1",
   "author": "Rich Harris",
+  "license": "MIT",
+  "repository": "https://github.com/gobblejs/gobble-ractive",
   "keywords": [
-    "gobble"
+    "gobble",
+    "gobble-plugin"
   ],
   "files": [
     "index.js",
