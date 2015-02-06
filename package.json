@@ -1,7 +1,7 @@
 {
   "name": "gobble-ractive",
   "description": "Compile Ractive.js components with gobble",
-  "version": "0.1.2",
+  "version": "0.2.0-edge",
   "author": "Rich Harris",
   "license": "MIT",
   "repository": "https://github.com/gobblejs/gobble-ractive",
@@ -11,11 +11,11 @@
   ],
   "files": [
     "index.js",
-    "builders"
+    "README.md"
   ],
   "dependencies": {
-    "ractive": "^0.6.1",
-    "rcu": "~0.2.1",
+    "ractive": "git://github.com/ractivejs/ractive#build",
+    "rcu": "git://github.com/ractivejs/rcu#edge",
     "rcu-builders": "^0.1.0"
   }
 }
