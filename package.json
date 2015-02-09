@@ -16,6 +16,6 @@
   "dependencies": {
     "ractive": "git://github.com/ractivejs/ractive#build",
     "rcu": "git://github.com/ractivejs/rcu#edge",
-    "rcu-builders": "^0.1.0"
+    "rcu-builders": "git://github.com/ractivejs/rcu-builders#edge"
   }
 }
