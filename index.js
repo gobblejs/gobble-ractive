@@ -11,7 +11,14 @@ function ractive ( source, options ) {
 		throw new Error( 'Cannot convert Ractive component to "' + options.type + '". Supported types: ' + Object.keys( builders ) );
 	}
 
-	return builder( rcu.parse( source ) );
+	options.sourceMap = options.sourceMap !== false;
+
+	if ( options.sourceMap ) {
+		options.sourceMapFile = this.dest;
+		options.sourceMapSource = this.src;
+	}
+
+	return builder( rcu.parse( source ), options );
 }
 
 ractive.defaults = {
