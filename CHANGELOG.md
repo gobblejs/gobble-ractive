@@ -2,7 +2,7 @@
 
 ## 0.2.0
 
-* Update to rcu 0.4.0 (requires Ractive 0.7.0 or higher)
+* Update to rcu 0.4.0 (requires Ractive 0.7.0 or higher) and rcu-builders 0.2.0
 
 ## 0.1.2
 
