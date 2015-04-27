@@ -47,6 +47,8 @@ var thing = new SomeComponent({
 });
 ```
 
+Note that you need to also have Ractive itself installed so that Browserify can find it - `npm install ractive`.
+
 
 ## License
 
